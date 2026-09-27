@@ -1,0 +1,119 @@
+From: Asha Example <asha@example.test>
+To: jobs-fixture123@in.applywise.test
+Subject: Fwd: my job alerts
+Date: Tue, 23 Sep 2026 11:00:00 +0530
+Message-ID: <fixture-attached-001@fixtures.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix-1"
+
+--mix-1
+Content-Type: text/plain; charset="utf-8"
+
+Forwarding my alerts.
+--mix-1
+Content-Type: message/rfc822
+Content-Disposition: attachment; filename="indeed.eml"
+
+From: "Indeed" <donotreply@jobalert.indeed.com>
+To: asha@example.test
+Subject: 3 new jobs: python developer
+Date: Mon, 22 Sep 2026 07:30:00 +0000
+Message-ID: <fixture-indeed-001@fixtures.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Indeed Job Alert
+3 new jobs: python developer - Bengaluru, Karnataka
+
+Jobs 1-3 of 3 new jobs
+See matching results on Indeed: https://in.indeed.com/jobs?q=3Dpython+devel=
+oper&l=3DBengaluru%2C+Karnataka&from=3Dja&alid=3DFAKEALID&tmtk=3DFAKETMTK&u=
+tm_campaign=3Djob_alerts
+
+
+Python Developer
+Cobalt Byte Labs Pvt Ltd - Bengaluru, Karnataka
+=E2=82=B96,00,000 - =E2=82=B99,00,000 a year
+Easily apply
+Build REST APIs in Django and FastAPI for our lending platform and work clo=
+sely with=E2=80=A6
+(2 days ago)
+https://in.indeed.com/rc/clk/dl?jk=3D3f2a9c1b7e5d4a60&from=3Dja&qd=3DFAKEQD=
+&rd=3DFAKERD&tk=3DFAKETK&alid=3DFAKEALID&bb=3DFAKEBB&tmtk=3DFAKETMTK
+
+Backend Engineer (Python) - Payments
+Marigold Fintech Private Limited - Hybrid work in Bengaluru, Karnataka
+Easily apply
+You will own services that reconcile UPI and card transactions for=E2=80=A6
+Just posted
+https://in.indeed.com/rc/clk?jk=3D9b1e04c7a2d85f31&from=3Dja&tk=3DFAKETK&al=
+id=3DFAKEALID
+
+Software Engineer - Data Platform
+Tealeaf Systems - Remote
+Design batch and streaming pipelines on AWS; Python and SQL daily=E2=80=A6
+(5 days ago)
+https://in.indeed.com/pagead/clk/dl?mo=3Dr&ad=3DFAKESPONSOREDAD1&tk=3DFAKET=
+K&alid=3DFAKEALID&bb=3DFAKEBB
+
+
+
+Don't share this email
+This email contains secure links personalised for you.
+
+=C2=A9 2026 Indeed
+Unsubscribe from this job alert: https://subscriptions.indeed.com/alerts/ca=
+ncel?token=3DFAKETOKEN&co=3DIN&hl=3Den
+
+
+--mix-1
+Content-Type: message/rfc822
+Content-Disposition: attachment; filename="hirist.eml"
+
+From: hirist.tech <info@hirist.tech>
+To: asha@example.test
+Subject: Asha, jobs matching your profile
+Date: Mon, 22 Sep 2026 08:00:00 +0530
+Message-ID: <fixture-hirist-001@fixtures.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="hr-alt-1"
+
+--hr-alt-1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please Enable HTML
+
+--hr-alt-1
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body>
+<p>Dear Asha, please find below the latest jobs matching your profile.</p>
+<table role=3D"presentation"><tr><td>
+ <a href=3D"https://www.hirist.tech/j/senior-react-developer-coralbay-comme=
+rce-3-7-yrs-1523456.html?pref=3Drl&amp;jobpos=3D1&amp;jobversion=3D2" style=
+=3D"font-weight:bold;color:#1a0dab">Senior React Developer</a>
+ <p>Coralbay Commerce &middot; 3-7 yrs &middot; Bengaluru</p>
+</td></tr></table>
+<table role=3D"presentation"><tr><td>
+ <a href=3D"https://www.hirist.com/j/golang-developer-driftwood-fintech-2-5=
+-yrs-1523999?jobPos=3D2" style=3D"font-weight:bold;color:#1a0dab">Golang De=
+veloper</a>
+ <p>Driftwood Fintech &middot; 2-5 yrs &middot; Gurgaon/Gurugram</p>
+</td></tr></table>
+<table role=3D"presentation"><tr><td>
+ <a href=3D"https://www.hirist.tech/j/lead-data-engineer-bluefin-mobility-6=
+-10-yrs-1524100.html?pref=3Drl&amp;jobpos=3D3" style=3D"font-weight:bold;co=
+lor:#1a0dab">Lead Data Engineer</a>
+ <p>Bluefin Mobility &middot; 6-10 yrs &middot; Hyderabad, Chennai</p>
+</td></tr></table>
+<p><a href=3D"https://www.hirist.tech/jobs?src=3Dmailer">View more jobs</a>=
+ | <a href=3D"https://www.hirist.tech/settings/mailers?token=3DFAKETOKEN">U=
+nsubscribe</a></p>
+</body></html>
+
+--hr-alt-1--
+
+--mix-1--

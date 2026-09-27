@@ -1,0 +1,38 @@
+Aarav Mehta
+Senior Frontend Engineer
+aarav.mehta@example.test | +91 98765 43210 | Bengaluru, India
+github.com/aarav-demo | linkedin.com/in/aarav-demo | aarav-demo.example
+
+Summary
+Frontend-focused full-stack engineer with 5 years of experience building complex React and TypeScript applications for video and SaaS products. DEMO CV - fictional person for local development.
+
+Experience
+Senior Frontend Engineer | Clipverse Media | Bengaluru | Jan 2023 - Present
+- Built a multi-track video timeline editor in React and TypeScript with frame-accurate trimming and drag-and-drop clips
+- Implemented canvas-based preview rendering using the HTML5 Canvas API and Web Workers to keep the UI responsive
+- Designed resumable chunked uploads to Amazon S3 for multi-GB media files
+- Led state management migration from Redux to Zustand for undo/redo across complex UI workflows
+- Improved rendering performance of the project dashboard with list virtualization
+Frontend Developer | Tasklane Software | Pune | Jun 2021 - Dec 2022
+- Built a drag-and-drop workflow builder for a B2B SaaS platform using React and Redux
+- Developed REST API integrations and Node.js BFF endpoints with Express
+- Wrote unit tests with Jest and React Testing Library and end-to-end tests with Playwright
+
+Projects
+ReelNotes - Open-source video annotation tool | Tech: React, TypeScript, Canvas API, WebCodecs
+- Frame-level comments on videos rendered on canvas
+Chunky - Resumable upload library | Tech: TypeScript, Node.js, Amazon S3
+- Chunked, resumable uploads with retry and parallel parts
+
+Skills
+Languages: JavaScript, TypeScript, HTML, CSS
+Frontend: React, Next.js, Redux, Zustand, Tailwind CSS
+Backend: Node.js, Express, PostgreSQL
+Testing: Jest, React Testing Library, Playwright
+Other: Git, Docker, Figma
+
+Education
+B.Tech in Computer Science | Visvesvaraya Technological University | 2014 - 2018
+
+Achievements
+- Speaker at a local React meetup on canvas rendering performance

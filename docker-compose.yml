@@ -1,0 +1,31 @@
+# Local development services. Demo/dev only - do not use these credentials in production.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: applywise
+      POSTGRES_PASSWORD: applywise
+      POSTGRES_DB: applywise
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U applywise"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  # Local SMTP catcher (Mailtrap-like). UI at http://localhost:8025
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+  # Optional: only needed when QUEUE_DRIVER=bullmq
+  redis:
+    image: redis:7-alpine
+    profiles: ["queue"]
+    ports:
+      - "6379:6379"
+volumes:
+  pgdata:

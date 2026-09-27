@@ -1,0 +1,16 @@
+Subject: Hiring: Full-Stack Developer | Bytewise Foods | Pune
+From: Recruiting Team <people@bytewise.test>
+
+[DEMO FIXTURE - fictional]
+
+Bytewise Foods is looking for a Full-Stack Developer (2+ years).
+
+Requirements
+- Node.js, Express and PostgreSQL
+- React
+- Work from office in Pune (onsite)
+
+Screening questions
+- Are you comfortable working onsite in Pune?
+
+To apply, email your resume to hiring@bytewise.test

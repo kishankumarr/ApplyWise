@@ -1,0 +1,47 @@
+Return-Path: <bounces@naukri.com>
+From: "Naukri Job Alerts" <JobAlerts@Naukri.com>
+To: Priya Sharma <priya.sharma@example.test>
+Subject: =?UTF-8?B?MyBuZXcgRnJvbnRlbmQgRGV2ZWxvcGVyIGpvYnMg4oCTIEJlbmdhbHVydQ==?=
+Date: Thu, 25 Sep 2026 09:30:00 +0530
+Message-ID: <alert-20260925-0001@naukri.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mixed-b1"
+
+--mixed-b1
+Content-Type: multipart/alternative; boundary="alt-b2"
+
+--alt-b2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Jobs matching your alert
+
+Frontend Developer =E2=80=93 Kavach Studio =E2=80=93 Bengaluru
+https://www.naukri.com/job-listings-frontend-developer-kavach-studio-bengaluru-3-=
+to-5-years-230925000111
+
+React Engineer =E2=80=93 Lotus Fintech =E2=80=93 Bengaluru (Hybrid)
+
+--alt-b2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PCFkb2N0eXBlIGh0bWw+PGh0bWw+PGJvZHk+PGgyPkpvYnMgbWF0Y2hpbmcgeW91ciBhbGVydDwv
+aDI+Cjx0YWJsZT4KPHRyPjx0ZD48YSBocmVmPSJodHRwczovL3d3dy5uYXVrcmkuY29tL2pvYi1s
+aXN0aW5ncy1mcm9udGVuZC1kZXZlbG9wZXIta2F2YWNoLXN0dWRpby1iZW5nYWx1cnUtMy10by01
+LXllYXJzLTIzMDkyNTAwMDExMSI+RnJvbnRlbmQgRGV2ZWxvcGVyPC9hPjwvdGQ+PHRkPkthdmFj
+aCBTdHVkaW88L3RkPjx0ZD5CZW5nYWx1cnU8L3RkPjwvdHI+Cjx0cj48dGQ+PGEgaHJlZj0iaHR0
+cHM6Ly93d3cubmF1a3JpLmNvbS9qb2ItbGlzdGluZ3MtcmVhY3QtZW5naW5lZXItbG90dXMtZmlu
+dGVjaC1iZW5nYWx1cnUtMi10by00LXllYXJzLTIzMDkyNTAwMDIyMiI+UmVhY3QgRW5naW5lZXI8
+L2E+PC90ZD48dGQ+TG90dXMgRmludGVjaDwvdGQ+PHRkPkJlbmdhbHVydSAoSHlicmlkKTwvdGQ+
+PC90cj4KPC90YWJsZT48aW1nIHNyYz0iaHR0cHM6Ly9zdGF0aWMubmF1a3JpLmNvbS9waXhlbC5n
+aWYiIGFsdD0iIj48L2JvZHk+PC9odG1sPg==
+--alt-b2--
+
+--mixed-b1
+Content-Type: text/calendar; name="reminder.ics"
+Content-Disposition: attachment; filename="reminder.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpFTkQ6VkNBTEVOREFSDQo=
+--mixed-b1--

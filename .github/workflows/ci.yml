@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: applywise
+          POSTGRES_PASSWORD: applywise
+          POSTGRES_DB: applywise
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U applywise"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      CI: "true"
+      DATABASE_URL: postgresql://applywise:applywise@localhost:5433/applywise
+      AUTH_SECRET: ci-only-auth-secret-not-for-production-0000
+      ENCRYPTION_KEY: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      SIGNING_SECRET: ci-only-signing-secret-not-for-production-00000
+      AI_DISABLED: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Create test databases
+        run: |
+          PGPASSWORD=applywise psql -h localhost -p 5433 -U applywise -c "CREATE DATABASE applywise_unit;"
+          PGPASSWORD=applywise psql -h localhost -p 5433 -U applywise -c "CREATE DATABASE applywise_e2e;"
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - name: Install Playwright browser
+        run: pnpm --filter @applywise/web exec playwright install --with-deps chromium
+      - run: pnpm test:e2e
+      - name: Build extension
+        run: pnpm ext:build
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: apps/web/playwright-report

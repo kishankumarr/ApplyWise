@@ -1,0 +1,29 @@
+From: Demo Job Alerts <alerts@demo-naukri.example>
+To: candidate@example.test
+Subject: Fwd: Job Alert: Frontend Engineer at Pixelwave Studios - Bengaluru
+Date: Tue, 16 Sep 2026 09:30:00 +0530
+Message-ID: <demo-alert-001@demo-naukri.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[DEMO FIXTURE - fictional job alert]
+
+Company: Pixelwave Studios
+Location: Bengaluru
+Experience: 3-6 years
+
+We are hiring a Frontend Engineer to build our browser-based video editing =
+tools for creators.
+
+Requirements
+- Must have strong experience with React.js and TypeScript
+- Experience with HTML5 Canvas and state management (Redux)
+- Immediate joiners preferred
+
+Nice to have
+- WebGL
+- Chunked uploads to AWS S3
+
+Apply here: https://careers.pixelwave.example/jobs/frontend-engineer-42
+HR email: talent@pixelwave.test

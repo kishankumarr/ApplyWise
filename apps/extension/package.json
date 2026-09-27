@@ -1,0 +1,47 @@
+{
+  "name": "@applywise/extension",
+  "displayName": "ApplyWise Copilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "User-triggered job import and approved-profile prefill for ApplyWise. Never submits forms.",
+  "author": "ApplyWise",
+  "type": "module",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "plasmo": "0.90.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@applywise/config": "workspace:*",
+    "@types/chrome": "^0.1.24",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "eslint": "^9.39.5",
+    "jsdom": "^27.0.1",
+    "typescript": "5.9.3",
+    "vitest": "^3.2.7"
+  },
+  "manifest": {
+    "name": "ApplyWise Copilot",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": [
+      "http://localhost:3000/*"
+    ],
+    "optional_host_permissions": [
+      "https://*/*"
+    ]
+  }
+}

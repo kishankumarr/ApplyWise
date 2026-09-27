@@ -1,0 +1,34 @@
+{
+  "name": "@applywise/ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "eval": "dotenv -e ../../.env -- tsx scripts/eval-local.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "@applywise/job-engine": "workspace:*",
+    "@applywise/resume-engine": "workspace:*",
+    "@applywise/types": "workspace:*",
+    "@applywise/validation": "workspace:*",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@applywise/config": "workspace:*",
+    "@types/node": "^22.18.0",
+    "eslint": "^9.39.5",
+    "typescript": "5.9.3",
+    "vitest": "^3.2.7",
+    "dotenv-cli": "^10.0.0",
+    "tsx": "^4.20.6"
+  }
+}

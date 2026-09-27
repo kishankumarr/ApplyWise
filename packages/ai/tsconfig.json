@@ -1,0 +1,1 @@
+{ "extends": "@applywise/config/tsconfig.base.json", "include": ["src", "test", "scripts"] }

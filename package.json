@@ -1,0 +1,50 @@
+{
+  "name": "applywise",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ApplyWise - India-focused AI-assisted job discovery and application copilot (MVP)",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @applywise/web dev",
+    "build": "pnpm --filter @applywise/web build",
+    "start": "pnpm --filter @applywise/web start",
+    "lint": "pnpm -r --parallel --if-present lint",
+    "typecheck": "pnpm -r --parallel --if-present typecheck",
+    "test": "pnpm -r --if-present test",
+    "test:e2e": "pnpm --filter @applywise/web test:e2e",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:up": "docker compose up -d postgres mailpit",
+    "db:down": "docker compose down",
+    "db:generate": "pnpm --filter @applywise/database db:generate",
+    "db:migrate": "pnpm --filter @applywise/database db:migrate",
+    "db:deploy": "pnpm --filter @applywise/database db:deploy",
+    "db:reset": "pnpm --filter @applywise/database db:reset",
+    "db:seed": "pnpm --filter @applywise/database db:seed",
+    "ext:dev": "pnpm --filter @applywise/extension dev",
+    "ext:build": "pnpm --filter @applywise/extension build",
+    "check": "pnpm lint && pnpm typecheck && pnpm test",
+    "worker": "pnpm --filter @applywise/web worker",
+    "demo:automation": "pnpm --filter @applywise/web demo:automation"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "5.9.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@prisma/client",
+      "@prisma/engines",
+      "prisma",
+      "esbuild",
+      "sharp",
+      "@parcel/watcher",
+      "lmdb",
+      "msgpackr-extract",
+      "@swc/core"
+    ]
+  }
+}

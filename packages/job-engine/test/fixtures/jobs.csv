@@ -1,0 +1,4 @@
+title,company,location,work_mode,description,required_skills,preferred_skills,experience_min,experience_max,apply_url,hr_email,platform
+Frontend Engineer,Demo Alpha,Bengaluru,hybrid,"[DEMO] Build React dashboards for our SaaS product. Work with TypeScript daily.",React;TypeScript,Redux,2,5,https://careers.alpha.example/jobs/1,,GREENHOUSE
+Backend Engineer,Demo Beta,"Pune; Remote - India",remote,"[DEMO] Build Node.js APIs with PostgreSQL for a fintech product.",Node.js;PostgreSQL,Kafka,3,6,,jobs@beta.test,
+Broken row,,,,short,,,,,,,

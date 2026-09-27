@@ -1,0 +1,14 @@
+# ApplyWise inbound-email relay. Copy to wrangler.toml, set WEBHOOK_URL, then:
+#   npx wrangler secret put INBOUND_SECRET     (same value as INBOUND_EMAIL_SECRET in ApplyWise)
+#   npx wrangler deploy
+name = "applywise-email-relay"
+main = "worker.ts"
+compatibility_date = "2026-01-01"
+
+# Email Workers need no binding here: the Email Routing rule ("Send to a Worker") points at this Worker.
+
+[vars]
+# Public HTTPS URL of your ApplyWise deployment + /api/inbound/email
+WEBHOOK_URL = "https://applywise.example.com/api/inbound/email"
+
+# Never put INBOUND_SECRET in this file; it is a Worker secret (see above).
